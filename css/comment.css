@@ -1,0 +1,19 @@
+.comment {
+    margin-top: 100px;
+}
+
+.one-comment {
+    background-color: #f0ffff;
+    padding: 12px;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+    margin-bottom: 20px;
+}
+
+.comment h5 {
+    margin-top: 100px;
+}
+
+strong {
+    margin-right: 10px;
+}

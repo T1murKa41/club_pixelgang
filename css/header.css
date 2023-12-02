@@ -1,0 +1,41 @@
+.las {
+    margin-right: 5px;
+}
+
+.btn-outline-info {
+    color: #005858;
+    border: 1px solid #002929;
+}
+
+.btn-outline-info:hover, 
+.btn-outline-info.active, 
+.btn-outline-info.dropdown-toggle.show, 
+.btn-outline-info:active {
+    background-color: #91e07d;
+    border: 1px solid #00aaaa;
+    color: #ffffff;
+}
+
+header {
+    background-color: #f0ffff;
+}
+
+.title {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    /* отключение ширины 100%. Ширина будет равна содержимому блока. 
+    Элементы выстраиваются горизонтально*/
+    display: inline-block; 
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    line-height: 1;
+} 
+
+header > .container > .row > nav > ul {
+    list-style: none;
+}
+
+header > .container > .row > nav > ul > li {
+    float: right;
+    margin: 20px 5px;
+}

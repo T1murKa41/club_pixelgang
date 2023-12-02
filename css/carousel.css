@@ -1,0 +1,27 @@
+.container img {
+    max-height: 500px;
+    object-fit: cover;
+}
+
+#carouselIndicators {
+    margin-top: 20px;
+}
+
+.carousel-title {
+    position: absolute;
+    z-index: 10;
+    height: 60px;
+    padding-top: 10px;
+    text-align: center;
+    color: #ffffff;
+    width: 100%;
+    background: linear-gradient(#000000, #ffffff00);;
+}
+
+.carousel-indicators {
+    margin: 0;
+    padding-right: 15%;
+    padding-bottom: 1rem;
+    padding-left: 15%;
+    background: linear-gradient(#ffffff00, #000000);;
+}

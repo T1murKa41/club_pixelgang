@@ -1,0 +1,63 @@
+.sidebar {
+    background-color: #f0ffff;
+    padding: 24px;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.btn-info {
+    color: #ffffff;
+    border: 1px solid #00aaaa;
+    background-color: #00aaaa;
+}
+
+.btn-info:hover, 
+.btn-info.active, 
+.btn-info.dropdown-toggle.show, 
+.btn-info:active {
+    border: 1px solid #00aaaa;
+    color: #00aaaa;
+    background-color: #a6f8f8;
+}
+
+.sidebar .btn {
+    width: 150px;
+    margin: 5px auto;
+}
+
+.sidebar > ul {
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+}
+
+.posts {
+    margin-top: 30px;
+    padding-left: 100px;
+    min-height: 500px;
+}
+
+.posts h2 {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+#floatingInput, #floatingTextarea, .form-select {
+    margin: 20px 0px;
+}
+
+#floatingTextarea {
+    height: 200px;
+}
+
+form label {
+    color: #000;
+}
+
+.col-auto {
+    display: flex;
+    justify-content: center;
+}

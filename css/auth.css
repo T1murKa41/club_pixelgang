@@ -1,0 +1,44 @@
+.controls {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-text-auth {
+    color: #bebebe;
+}
+
+.controls > * {
+    margin: 5px;
+}
+
+.btn-info {
+    color: #ffffff;
+    border: 1px solid #00aaaa;
+    background-color: #00aaaa;
+}
+
+.btn-info:hover, 
+.btn-info.active, 
+.btn-info.dropdown-toggle.show, 
+.btn-info:active {
+    background-color: #006565;
+    border: 1px solid #00aaaa;
+    color: #ffffff;
+}
+
+.btn-outline-info:hover {
+    background-color: #0ccece;
+} 
+
+.form {
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-center {
+    margin-bottom: 20px;
+}
